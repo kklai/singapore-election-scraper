@@ -1,66 +1,66 @@
-district,party,candidates,votes,pct_votes
-Alexandra(13317),PAP,Wong Lin Ken,Uncontested,0
-Aljunied(14472),PAP,Mohd. Ghazali Bin Ismail,Uncontested,0
-Anson(8764),PAP,Govindaswamy Perumal,Uncontested,0
-Bras Basah(9718),PAP,Ho See Beng,Uncontested,0
-Bukit Ho Swee(17735),PAP,Seah Mui Kok,Uncontested,0
-Bukit Merah(19319),PAP,Lim Guan Hoo,Uncontested,0
-Bukit Panjang(17893),PAP,Selvadurai Pathmanaban,Uncontested,0
-Bukit Timah(16769),PAP,Chor Yeok Eng,Uncontested,0
-Cairnhill(12287),PAP,Lim Kim San,Uncontested,0
-Changi(15594),PAP,Sim Boon Woo,Uncontested,0
-Chua Chu Kang(12879),PAP,Tang See Chim,Uncontested,0
-Crawford(7190),PAP,Low Yong Nguan,Uncontested,0
-Delta(17715),PAP,Chan Choy Siong,Uncontested,0
-Farrer Park(10290),PAP,Lee Chiaw Meng,7826,84.91
-Farrer Park(10290),INDP,M. P. D. Nair,1391,15.09
-Geylang East(16185),PAP,Ho Cheng Choon,Uncontested,0
-Geylang Serai(12741),INDP,Darus Shariff,1916,16.99
-Geylang Serai(12741),PAP,Rahmat Bin Kenap,9363,83.01
-Geylang West(14609),PAP,Yong Nyuk Lin,Uncontested,0
-Havelock(11049),PAP,Lim Soo Peng,Uncontested,0
-Hong Lim(10388),PAP,Lee Khoon Choy,Uncontested,0
-Jalan Besar(11400),PAP,Chan Chee Seng,Uncontested,0
-Jalan Kayu(12878),PAP,Hwang Soo Jin,9581,82.30
-Jalan Kayu(12878),WP,Sum Chong Meng,2060,17.70
-Joo Chiat(12335),PAP,Yeoh Ghim Seng,Uncontested,0
-Jurong(11445),PAP,Ho Kah Leong,Uncontested,0
-Kallang(9309),PAP,Abdul Aziz Karim,Uncontested,0
-Kampong Chai Chee(17636),PAP,Sha'ari Bin Tadin,Uncontested,0
-Kampong Glam(9484),PAP,Rajaratnam Sinnathamby,Uncontested,0
-Kampong Kapor(10818),PAP,Lim Cheng Lock,Uncontested,0
-Kampong Kembangan(15862),PAP,Mohd. Ariff Bin Suradi,Uncontested,0
-Kampong Ubi(13434),INDP,Tay Mook Yong,2169,18.13
-Kampong Ubi(13434),PAP,Yaacob bin Mohamed,9797,81.87
-Katong(14872),PAP,De Conceicao J. Francis,Uncontested,0
-Kreta Ayer(11575),PAP,Goh Keng Swee,Uncontested,0
-MacPherson(13099),PAP,Chua Sian Chin,Uncontested,0
-Moulmein(11888),PAP,Chia Seong,9675,90.56
-Moulmein(11888),INDP,T. T. Joseph,1009,9.44
-Mountbatten(12760),PAP,Ng Yeow Chong,Uncontested,0
-Nee Soon(12846),PAP,Ong Soo Chuan,10442,91.35
-Nee Soon(12846),WP,Wong Hong Toy,989,8.65
-Pasir Panjang(12394),PAP,Othman Bin Wok,Uncontested,0
-Paya Lebar(17573),PAP,Tay Boon Too,Uncontested,0
-Potong Pasir(11782),PAP,Sellappa Ramaswamy,Uncontested,0
-Punggol(12277),PAP,Ng Kah Ting,Uncontested,0
-Queenstown(16193),PAP,Jek Yuen Thong,Uncontested,0
-River Valley(10865),PAP,Low Guan Onn,Uncontested,0
-Rochore(12222),PAP,Toh Chin Chye,Uncontested,0
-Sembawang(11220),PAP,Teong Eng Siong,Uncontested,0
-Sepoy Lines(11409),PAP,Wee Toon Boon,Uncontested,0
-Serangoon Gardens(9454),PAP,Rodrigo Leonard Peter,Uncontested,0
-Siglap(11627),PAP,Abdul Rahim Bin Ishak,Uncontested,0
-Stamford(9919),PAP,Fong Sip Chee Andrew,Uncontested,0
-Tampines(12703),PAP,Phua Bah Lee,Uncontested,0
-Tanglin(10760),PAP,Barker Edmund William,Uncontested,0
-Tanjong Pagar(10806),PAP,Lee Kwan Yew,9128,94.34
-Tanjong Pagar(10806),INDP,R. Vetrivelu,548,5.66
-Telok Ayer(11721),PAP,Ong Pang Boon,Uncontested,0
-Telok Blangah(14785),PAP,Govindasamy s/o N. Naidu,Uncontested,0
-Thomson(15911),PAP,Ang Nam Piau,Uncontested,0
-Tiong Bahru(16532),PAP,Chng Jit Koon,Uncontested,0
-Toa Payoh(19143),PAP,Cheong Yuen Chee Eric,Uncontested,0
-Ulu Pandan(13289),PAP,Lee Teck Him,Uncontested,0
-Upper Serangoon(13373),PAP,Sia Kah Hui,Uncontested,0
-Whampoa(12854),PAP,Buang Bin Omar Junid,Uncontested,0
+district,party,candidates,candidates_count,votes,pct_votes
+Alexandra(13317),PAP,Wong Lin Ken,1,Uncontested,0
+Aljunied(14472),PAP,Mohd. Ghazali Bin Ismail,1,Uncontested,0
+Anson(8764),PAP,Govindaswamy Perumal,2,Uncontested,0
+Bras Basah(9718),PAP,Ho See Beng,1,Uncontested,0
+Bukit Ho Swee(17735),PAP,Seah Mui Kok,2,Uncontested,0
+Bukit Merah(19319),PAP,Lim Guan Hoo,2,Uncontested,0
+Bukit Panjang(17893),PAP,Selvadurai Pathmanaban,1,Uncontested,0
+Bukit Timah(16769),PAP,Chor Yeok Eng,1,Uncontested,0
+Cairnhill(12287),PAP,Lim Kim San,1,Uncontested,0
+Changi(15594),PAP,Sim Boon Woo,1,Uncontested,0
+Chua Chu Kang(12879),PAP,Tang See Chim,1,Uncontested,0
+Crawford(7190),PAP,Low Yong Nguan,1,Uncontested,0
+Delta(17715),PAP,Chan Choy Siong,1,Uncontested,0
+Farrer Park(10290),PAP,Lee Chiaw Meng,2,7826,84.91
+Farrer Park(10290),INDP,M. P. D. Nair,2,1391,15.09
+Geylang East(16185),PAP,Ho Cheng Choon,1,Uncontested,0
+Geylang Serai(12741),INDP,Darus Shariff,2,1916,16.99
+Geylang Serai(12741),PAP,Rahmat Bin Kenap,2,9363,83.01
+Geylang West(14609),PAP,Yong Nyuk Lin,1,Uncontested,0
+Havelock(11049),PAP,Lim Soo Peng,1,Uncontested,0
+Hong Lim(10388),PAP,Lee Khoon Choy,1,Uncontested,0
+Jalan Besar(11400),PAP,Chan Chee Seng,1,Uncontested,0
+Jalan Kayu(12878),PAP,Hwang Soo Jin,2,9581,82.30
+Jalan Kayu(12878),WP,Sum Chong Meng,2,2060,17.70
+Joo Chiat(12335),PAP,Yeoh Ghim Seng,1,Uncontested,0
+Jurong(11445),PAP,Ho Kah Leong,1,Uncontested,0
+Kallang(9309),PAP,Abdul Aziz Karim,1,Uncontested,0
+Kampong Chai Chee(17636),PAP,Sha'ari Bin Tadin,1,Uncontested,0
+Kampong Glam(9484),PAP,Rajaratnam Sinnathamby,1,Uncontested,0
+Kampong Kapor(10818),PAP,Lim Cheng Lock,1,Uncontested,0
+Kampong Kembangan(15862),PAP,Mohd. Ariff Bin Suradi,1,Uncontested,0
+Kampong Ubi(13434),INDP,Tay Mook Yong,2,2169,18.13
+Kampong Ubi(13434),PAP,Yaacob bin Mohamed,2,9797,81.87
+Katong(14872),PAP,De Conceicao J. Francis,1,Uncontested,0
+Kreta Ayer(11575),PAP,Goh Keng Swee,1,Uncontested,0
+MacPherson(13099),PAP,Chua Sian Chin,1,Uncontested,0
+Moulmein(11888),PAP,Chia Seong,2,9675,90.56
+Moulmein(11888),INDP,T. T. Joseph,2,1009,9.44
+Mountbatten(12760),PAP,Ng Yeow Chong,1,Uncontested,0
+Nee Soon(12846),PAP,Ong Soo Chuan,2,10442,91.35
+Nee Soon(12846),WP,Wong Hong Toy,2,989,8.65
+Pasir Panjang(12394),PAP,Othman Bin Wok,1,Uncontested,0
+Paya Lebar(17573),PAP,Tay Boon Too,1,Uncontested,0
+Potong Pasir(11782),PAP,Sellappa Ramaswamy,1,Uncontested,0
+Punggol(12277),PAP,Ng Kah Ting,1,Uncontested,0
+Queenstown(16193),PAP,Jek Yuen Thong,1,Uncontested,0
+River Valley(10865),PAP,Low Guan Onn,1,Uncontested,0
+Rochore(12222),PAP,Toh Chin Chye,1,Uncontested,0
+Sembawang(11220),PAP,Teong Eng Siong,2,Uncontested,0
+Sepoy Lines(11409),PAP,Wee Toon Boon,1,Uncontested,0
+Serangoon Gardens(9454),PAP,Rodrigo Leonard Peter,1,Uncontested,0
+Siglap(11627),PAP,Abdul Rahim Bin Ishak,2,Uncontested,0
+Stamford(9919),PAP,Fong Sip Chee Andrew,1,Uncontested,0
+Tampines(12703),PAP,Phua Bah Lee,1,Uncontested,0
+Tanglin(10760),PAP,Barker Edmund William,1,Uncontested,0
+Tanjong Pagar(10806),PAP,Lee Kwan Yew,2,9128,94.34
+Tanjong Pagar(10806),INDP,R. Vetrivelu,2,548,5.66
+Telok Ayer(11721),PAP,Ong Pang Boon,2,Uncontested,0
+Telok Blangah(14785),PAP,Govindasamy s/o N. Naidu,2,Uncontested,0
+Thomson(15911),PAP,Ang Nam Piau,2,Uncontested,0
+Tiong Bahru(16532),PAP,Chng Jit Koon,2,Uncontested,0
+Toa Payoh(19143),PAP,Cheong Yuen Chee Eric,2,Uncontested,0
+Ulu Pandan(13289),PAP,Lee Teck Him,2,Uncontested,0
+Upper Serangoon(13373),PAP,Sia Kah Hui,2,Uncontested,0
+Whampoa(12854),PAP,Buang Bin Omar Junid,2,Uncontested,0

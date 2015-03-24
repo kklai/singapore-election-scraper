@@ -26,30 +26,31 @@ with open("results_by_seats.csv", "w") as csvfile:
         if row[1] != "party":
           district = row[0].split("(")[0]
           if currentDistrict == district:
-            findWinner.append([district, row[1], row[3]])
+            findWinner.append([district, row[1], row[4], row[3]])
           else:
-            print(findWinner)
+            # print(findWinner)
             if len(findWinner) == 1:
               winner = row[1]
+              winner_count = 1
             else:
               votes = []
               for x in findWinner:
                 votes.append(int(float(x[2])))
               winner = findWinner[votes.index(max(votes))][1]
-            print winner
+              winner_count = int(findWinner[votes.index(max(votes))][3])
 
             if winner == "PAP":
-              pap_vote += 1
+              pap_vote += winner_count
             elif winner == "SPP":
-              spp_vote += 1
+              spp_vote += winner_count
             elif winner == "WP":
-              wp_vote += 1
+              wp_vote += winner_count
             else:
-              others += 1
+              others += winner_count
 
             findWinner = []
             currentDistrict = district
-            findWinner.append([district, row[1], row[3]])
+            findWinner.append([district, row[1], row[4], row[3]])
 
       w.writerow({'year': year, "PAP": pap_vote, "SPP": spp_vote, "WP": wp_vote, "Others": others})
           

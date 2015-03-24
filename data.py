@@ -9,7 +9,7 @@ years = ["1955", "1959", "1963", "1968", "1972", "1980", "1984", "1988", "1991",
 
 def extract(year):
     with open("result_" + year + ".csv", "w") as csvfile:
-      fieldNames = ["district", "party", "candidates", "votes", "pct_votes"]
+      fieldNames = ["district", "party", "candidates", "candidates_count", "votes", "pct_votes"]
 
       w = csv.DictWriter(csvfile, fieldNames)
 
@@ -33,6 +33,7 @@ def extract(year):
           district = col[0].text
 
           candidates = col[1].findAll("div")
+          candidates_count = len(candidates)
 
           party = col[2].findAll("a")
 
@@ -43,9 +44,9 @@ def extract(year):
 
           if (len(party) > 1):
             for x in range(len(party)):
-              w.writerow({'district': district.replace(",", ""), 'party': party[x].text.replace(",", ""), 'candidates': candidates[x].text.replace(",", ""), 'votes': total_votes[x].text.replace(",", ""),'pct_votes': total_votes_pct[x].text.replace(",", "") })
+              w.writerow({'district': district.replace(",", ""), 'party': party[x].text.replace(",", ""), 'candidates': candidates[x].text.replace(",", ""), 'candidates_count': candidates_count, 'votes': total_votes[x].text.replace(",", ""),'pct_votes': total_votes_pct[x].text.replace(",", "") })
           elif (total_votes[0].text == "Uncontested"):
-            w.writerow({'district': district.replace(",", ""), 'party': party[0].text.replace(",", ""), 'candidates': candidates[0].text.replace(",", ""), 'votes': total_votes[0].text.replace(",", ""),'pct_votes': 0})
+            w.writerow({'district': district.replace(",", ""), 'party': party[0].text.replace(",", ""), 'candidates': candidates[0].text.replace(",", ""), 'candidates_count': candidates_count, 'votes': total_votes[0].text.replace(",", ""),'pct_votes': 0})
 
 for x in years:
     extract(x)
