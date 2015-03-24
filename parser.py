@@ -28,6 +28,7 @@ with open("results_by_seats.csv", "w") as csvfile:
           if currentDistrict == district:
             findWinner.append([district, row[1], row[3]])
           else:
+            print(findWinner)
             if len(findWinner) == 1:
               winner = row[1]
             else:
@@ -35,6 +36,7 @@ with open("results_by_seats.csv", "w") as csvfile:
               for x in findWinner:
                 votes.append(int(float(x[2])))
               winner = findWinner[votes.index(max(votes))][1]
+            print winner
 
             if winner == "PAP":
               pap_vote += 1
